@@ -19,7 +19,7 @@ import { config } from '@/config/runtime-config'
 
 // Get API base URL from runtime configuration
 // This allows changing the API URL without rebuilding the app
-const apiBaseUrl = config.apiBaseUrl() || 'https://localhost:44300'
+const apiBaseUrl = config.apiBaseUrl()
 const apiTimeout = config.apiTimeout() || 30000
 
 /**

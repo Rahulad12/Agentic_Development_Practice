@@ -1,4 +1,4 @@
-# AMNIL Research Claude
+# Research Claude
 
 A production-ready full-stack monorepo with React 19 frontend and .NET 9 + ABP Framework backend.
 

@@ -1,25 +1,2 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #6366f1;
-  --color-primary-foreground: #ffffff;
-  --color-secondary: #f43f5e;
-  --color-secondary-foreground: #ffffff;
-  --color-accent: #f59e0b;
-  --color-accent-foreground: #ffffff;
-  --color-destructive: #ef4444;
-  --color-destructive-foreground: #ffffff;
-  --color-success: #10b981;
-  --color-success-foreground: #ffffff;
-  --radius: 0.5rem;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    "Noto Sans", sans-serif;
-}
-
-* {
-  @apply border-border;
-}
-
-body {
-  @apply bg-background text-foreground;
-}
