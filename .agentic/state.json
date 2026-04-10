@@ -1,0 +1,32 @@
+{
+  "project": {
+    "name": "AMNIL Research Claude",
+    "type": "monorepo",
+    "status": "setup",
+    "createdAt": "2026-04-10",
+    "lastUpdated": "2026-04-10"
+  },
+  "frontend": {
+    "initialized": false,
+    "framework": "React 19",
+    "buildTool": "Vite 6",
+    "styling": "Tailwind CSS 4.2",
+    "components": "shadcn/ui"
+  },
+  "backend": {
+    "initialized": false,
+    "framework": ".NET 9.0",
+    "orm": "EF Core 9",
+    "database": "Not configured",
+    "module": "ABP Framework 8.x"
+  },
+  "tasks": {
+    "structureCreated": true,
+    "scriptsReady": true,
+    "dependenciesInstalled": false,
+    "frontendSetup": false,
+    "backendSetup": false,
+    "databaseConfigured": false,
+    "firstFeatureComplete": false
+  }
+}

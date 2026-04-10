@@ -1,0 +1,60 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+frontend/coverage/
+frontend/*.log
+
+# Backend
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.vscode/
+backend/**/*.user
+backend/appsettings.Development.json
+backend/appsettings.Production.json
+backend/.idea/
+
+# Database
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-workspace
+
+# Build artifacts
+dist/
+build/
+.next/
+
+# Package lock files (optional - team preference)
+# npm-debug.log
+# yarn-error.log
+# pnpm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
